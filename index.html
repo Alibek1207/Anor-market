@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANOR MARKET</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon"  href="./images/logo.png">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <nav class="sidebar close">
+    <header>
+        <div class="image-text">
+            <span class="image">
+                <img src="./images/logo.png" alt="logo">
+            </span>
+
+            <div class="text logo-text">
+                <span class="name">Anor Market</span>
+                <span class="profession">Marketpleys</span>
+            </div>
+        </div>
+
+        <i class='bx bx-chevron-right toggle'></i>
+    </header>
+
+    <div class="menu-bar">
+        <div class="menu">
+
+            <li class="search-box">
+                <button class="btn-search" id="search">
+                  <i class='bx bx-search icon'></i>
+                </button>
+                <input type="text" placeholder="Qidiruv..." id="searchInput">
+            </li>
+
+            <ul class="menu-links">
+                <li class="nav-link">
+                    <a href="./index.html">
+                        <i class='bx bx-home-alt icon' ></i>
+                        <span class="text nav-text">Bosh sahifa</span>
+                    </a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-category icon'></i>
+                        <span class="text nav-text">Katalog</span>
+                    </a>
+                </li>
+                
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-bell icon'></i>
+                        <span class="text nav-text">Bildirishnomalar</span>
+                    </a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="./pages/favourites.html" target="_blank">
+                        <i class='bx bx-heart icon'></i>
+                        <span class="text nav-text">Saqlanganlar</span>
+                    </a> 
+                </li>
+
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-basket icon'></i>
+                        <span class="text nav-text">Savat</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="bottom-content">
+            <li class="">
+                <a href="#">
+                    <i class='bx bx-log-out icon' ></i>
+                    <span class="text nav-text">Chiqish</span>
+                </a>
+            </li>
+
+            <li class="mode">
+                <div class="sun-moon">
+                    <i class='bx bx-moon icon moon'></i>
+                    <i class='bx bx-sun icon sun'></i>
+                </div>
+                <span class="mode-text text">Tun mavzusi</span>
+
+                <div class="toggle-switch">
+                    <span class="switch"></span>
+                </div>
+            </li>
+            
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+
+
+<section class="home">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img class="logo" src="./images/logo.png" alt="logo">
+          </a>
+          <a class="navbar-brand" href="./index.html">
+            <h4 class="name1">
+              anor market
+            </h4>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active my-nav" target="_blank" aria-current="page" href="./pages/singin.html"><i class='bx bx-log-in'></i>Kirish</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link my-nav" href="./pages/favourites.html" target="_blank"><i class='bx bx-heart icon'></i>Saralanganlar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link my-nav" href="#"><i class='bx bx-basket icon'></i>Savat</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle my-nav" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class='bx bx-category icon'></i>
+                  Katalog
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Elektronika</a></li>
+                  <li><a class="dropdown-item" href="#">Kiyim kechak</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Oziq ovqat</a></li>
+                </ul>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="mahsulot nomini yozing" aria-label="Search">
+              <button class="btn btn-outline-success my-btn" type="submit">Izlash</button>
+            </form>
+          </div>
+        </div>
+      </nav>    
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/iphone15.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/laptop.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/fen.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+
+      
+      
+      <ul id="list" class="list row">
+        
+      </ul>
+
+
+
+
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <a class="page-link">Oldin</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="./index.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="./pages/pages2.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Keyin</a>
+          </li>
+        </ul>
+      </nav>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Biz haqimizda</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Aloqa</h3>
+                    <ul class="contact-info">
+                        <li><i class="fa fa-map-marker"></i> 123-kocha, Shahar, Davlat</li>
+                        <li><i class="fa fa-phone"></i> (123) 456-7890</li>
+                        <li><i class="fa fa-envelope"></i> info@namuna.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Mijozlar uchun</h3>
+                    <ul class="latest-news">
+                        <li><a href="#">Yangi mahsulumiz chiqdi!</a></li>
+                        <li><a href="#">Yozgi chegirma boshlandi!</a></li>
+                        <li><a href="#">Yangi yil aksiyalarimiz boshlandi!</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
